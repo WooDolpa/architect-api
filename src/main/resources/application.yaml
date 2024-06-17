@@ -19,5 +19,6 @@ spring:
 
 
 logging:
+  config: classpath:logback-spring.xml
   level:
     org.hibernate.orm.jdbc.bind: trace
