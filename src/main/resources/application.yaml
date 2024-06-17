@@ -17,6 +17,12 @@ spring:
         format_sql: true
     open-in-view: false
 
+springdoc:
+  api-docs:
+    path: /v1/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    url: /v1/api-docs
 
 logging:
   config: classpath:logback-spring.xml
