@@ -38,3 +38,6 @@ out/
 architect-api/
 
 logs
+
+#src/main/resources/application.yaml
+src/main/resources/logback-spring.xml

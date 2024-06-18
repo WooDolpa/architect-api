@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mariadb://19341.synology.me:3306/homepage
-    username: jwlee
-    password: Epsltm1124!
+    url:
+    username:
+    password:
     hikari:
       connection-test-query: SELECT 1   # 연결이 정상적으로 되었는지 확인하는 Test Query
       idle-timeout: 60000               # 연결된 DB 커넥션 중 사용하지 않은게 있으면 해당 설정된 시간 이후 자동 해제됨
